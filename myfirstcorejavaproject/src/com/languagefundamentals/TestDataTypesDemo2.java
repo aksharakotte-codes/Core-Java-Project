@@ -47,7 +47,7 @@ public class TestDataTypesDemo2 {
 		
 		
 //		Auto-UnBoxing converts Integer --> int
-//		From wrapper class primitive data type into
+//		From wrapper class into primitive data type 
 //		Byte
 		Byte c1 = 10;
 		byte d1 = c1;
