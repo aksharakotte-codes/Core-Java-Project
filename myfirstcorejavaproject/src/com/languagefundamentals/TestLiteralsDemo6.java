@@ -28,7 +28,7 @@ public class TestLiteralsDemo6 {
 		System.out.println(i);
 		System.out.println(t1);
 		
-		t1 = new TestLiteralsDemo6 ();
+		t1 = new TestLiteralsDemo6 (); 
 	}
 
 }

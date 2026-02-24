@@ -85,7 +85,7 @@ public class TestDataTypesDemo2 {
 		
 //		Boolean
 		Boolean c8 = false;
-		boolean d8 = a8;
+		boolean d8 = c8;
 		System.out.println("Auto-UnBoxing for Boolean:" +d8);
 		
 		
