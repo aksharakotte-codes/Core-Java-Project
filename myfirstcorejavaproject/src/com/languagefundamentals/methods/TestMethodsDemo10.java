@@ -3,11 +3,11 @@ package com.languagefundamentals.methods;
 //With Argument + With Return type
 //WAP to find areas of Triangle, Rectangle, Square, Circle
 //
-//Area of Triangle : 0.5 * breadth * height
+//Area of Triangle : 0.5 * base. * height
 //Area of Rectangle: length * breadth
 //Area of Square : side * side
 //Area of Circle : PI * r * r
-// Using instance method
+// Using static method
 import java.util.Scanner;
 public class TestMethodsDemo10 {
 

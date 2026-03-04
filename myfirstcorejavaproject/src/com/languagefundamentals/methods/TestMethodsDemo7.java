@@ -12,9 +12,9 @@ public class TestMethodsDemo7 {
 //		So we must need to pass arguments in it.
 //		Scanner sc = new Scanner();
 		
-//		Constructors a new Scanner that produces values scanned from the specified input stream
+//		Constructs a new Scanner that produces values scanned from the specified input stream
 //		To read the elements from Console directly
-		Scanner sc = new Scanner(System.in);//Parameter constructor
+		Scanner sc = new Scanner(System.in);//Parameterized constructor
 		System.out.println("Enter your age : ");
 		int age = sc.nextInt();
 		
@@ -26,6 +26,11 @@ public class TestMethodsDemo7 {
 		
 //		Default Constructor (provided by compiler)
 		TestMethodsDemo7 t = new TestMethodsDemo7();
+//		If you want to read elements from program itself and gives input directly in console  
+		t.getEmployee(22);
+		t.getEmployeeFullName("Kotte", "Jyothi");
+		
+//		If you want to read elements from console
 		t.getEmployee(age);
 		t.getEmployeeFullName(firstname, lastname);
 		
