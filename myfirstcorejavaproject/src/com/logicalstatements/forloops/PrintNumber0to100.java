@@ -12,7 +12,7 @@ public class PrintNumber0to100 {
 //		Step-2 : i < 5 condition check
 //		Step-3 : statements execution inside the loop
 //		Step-4 : increment 
-//		--------------------------------------	
+//		----------s----------------------------	
 		for (int i = 1; i <= 5; i++) {
 			System.out.println("Hello " + " " + i);
 		}
