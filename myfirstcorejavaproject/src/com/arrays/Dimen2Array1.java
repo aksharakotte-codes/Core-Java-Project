@@ -18,12 +18,19 @@ public class Dimen2Array1 {
 		numbers[1][1] = 105;
 		numbers[1][2] = 106;
 		
-		for(int i =  0; i < numbers.length; i++) {
-			for(int j = 0; j < numbers[i].length; j++) {
-				System.out.print(numbers[i][j] + " ");
+		for(int[] n1 : numbers) {
+			for(int n : n1) {
+				System.out.print(n + " ");
 			}
 			System.out.println();
 		}
+		
+//		for(int i =  0; i < numbers.length; i++) {
+//			for(int j = 0; j < numbers[i].length; j++) {
+//				System.out.print(numbers[i][j] + " ");
+//			}
+//			System.out.println();
+//		}
 	}	
 		
 }
