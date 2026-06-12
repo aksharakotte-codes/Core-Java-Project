@@ -20,13 +20,13 @@ public class TestCollectionDemo2 {
 		batsmens.add("Rahul");
 		System.out.println("Batsmens : " + batsmens);
 		
+		batsmens.removeIf(s -> s.equals("Rohit"));
+		
 		Iterator<String> itr =  batsmens.iterator();
 		
 //		Returns true if the iteration has more elements.
 		while(itr.hasNext()) {
 //			Returns the next element in the iteration.
-			
-			
 			System.out.println(itr.next());
 		}
 		

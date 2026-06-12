@@ -31,10 +31,15 @@ public class CricketTeam {
 		batsmens.add("Rahul");
 		System.out.println("Batsmens : " + batsmens);
 		
+		Collection<String> allRounders = new ArrayList<>();
+		allRounders.add("Jadeja");
+		allRounders.add("Srikanth");
+		
 		Collection<String> indianTeam = new ArrayList<>();
 //		Adds all of the elements in the specified collection to this collection
 		indianTeam.addAll(bowlers);
 		indianTeam.addAll(batsmens);
+		indianTeam.addAll(allRounders);
 		
 //		Removes all of the elements from this collection 
 		bowlers.clear();
@@ -45,18 +50,30 @@ public class CricketTeam {
 		System.out.println(batsmens.contains("Akshara"));//false
 		System.out.println(batsmens.contains("Virat"));//true
 		
-		Collection<String> allRounders = new ArrayList<>();
-		allRounders.add("Jadeja");
-		allRounders.add("Srikanth");
+		
 		 
 //		Returns true if this collection contains all of the elements in the specified collection
 		System.out.println(indianTeam.containsAll(bowlers));//true
 		System.out.println(indianTeam.containsAll(allRounders));//false
 		
-		indianTeam.clear();
+//		indianTeam.clear();
 		if(!indianTeam.isEmpty()) {
 			System.out.println("Welcome to Indian team !! All the Best");
 		}
+		
+		System.out.println("All Rounders : " + allRounders);
+		System.out.println("Batsmens : " + batsmens);
+		System.out.println("Bowlers : " + bowlers);
+		System.out.println("------------------------------");
+//		Removes a single instance of the specified element from this collection
+		System.out.println(batsmens.remove("Dhoni"));//true
+		System.out.println(batsmens);//without dhoni gives all  batsmens names
+		System.out.println("------------------------------");
+		System.out.println("Indian Team : " + indianTeam);
+//		Removes all of this collection's elements that are also contained in the specified collection
+		indianTeam.removeAll(allRounders);
+		System.out.println("Indian Team : " + indianTeam);
+		
 	}
 
 }
