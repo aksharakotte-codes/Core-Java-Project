@@ -27,5 +27,4 @@ public class TestArrayListDemo1 {
 		System.out.println(al.size());//11
 		System.out.println(al);
 	}
-
 }

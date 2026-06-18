@@ -1,6 +1,6 @@
 package com.collections;
 
-import java.util.LinkedList;
+import java.util.LinkedList;                     
 import java.util.List;
 
 public class TestLinkedListDemo1 {
@@ -20,9 +20,12 @@ public class TestLinkedListDemo1 {
 		l.add(null);
 		l.add(100);
 		
+//		Adds an element as the first element of this collection 
 		l.addFirst(90);
+//		Adds an element as the last element of this collection
 		l.addLast(500);
 		System.out.println(l);
+//		Adds an element as the last element of this collection
 		System.out.println(l.reversed());          
 	}
 

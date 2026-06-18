@@ -1,6 +1,9 @@
 package com.collections;
 import java.util.Stack;
 
+//Queue (FIFO) : First In First Out
+//Stack (LIFO) : Last In First Out
+
 public class TestStackDemo1 {
 
 	public static void main(String[] args) {
@@ -18,7 +21,11 @@ public class TestStackDemo1 {
 		l1.push("MICRO SERVICES");
 		l1.push("JPA");
 		
-//		Tests if this stack is empty.
+//		Returns the 1-based position where an object is on this stack.
+		System.out.println(l1.search("HTML"));//7
+		System.out.println(l1.search("SERVELTS"));//4
+		
+//		Tests if this stack is empty.True if and only if this stack contains no items; false otherwise.
 		System.out.println(l1.empty());//false
 //		Removes the object at the top of this stack and returns that object as the value of this function.
 		System.out.println(l1.pop());//JPA
