@@ -13,6 +13,7 @@ public class TestSetDemo1 {
 //		---------------------HashMap Demo--------------------------
 		Map<Integer, String> m = new HashMap<>();
 		
+//		Associates the specified value with the specified key in this map
 		m.put(7, "Dhoni");
 		m.put(18, "Virat");
 		m.put(34, "Pandya");
@@ -29,7 +30,7 @@ public class TestSetDemo1 {
 //		Whatever we are sending the value for a HashSet will consider as Key for Internal HashMap.
 //		What is the value for these key's..? Ans is: PRESENT = new Object() for every key.
 		
-//		Then How the key will be storing in bucket..? 
+//		Then How the key will be storing in bucket..? "
 //		    Key % Bucket size 16
 		
 //		But,once elements it's reaching Threshold --> Current Capacity(16) * Load Factor(0.75) -->12
@@ -49,7 +50,7 @@ public class TestSetDemo1 {
 		set.add(27);//27%16=11
 		set.add(45);//45%16=13
 		set.add(52);//52%16=4
-		set.add(77);//77%16=13
+		set.add(77);//77%16=13 
 		set.add(99);//99%16=3
 //		Output : [18, 34, 99, 52, 37, 27, 45, 77]
 		System.out.println("HashSet Output : " + set);
