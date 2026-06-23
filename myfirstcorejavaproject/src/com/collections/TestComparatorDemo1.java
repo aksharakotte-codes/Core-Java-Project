@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class TestComparableDemo3 {
+public class TestComparatorDemo1 {
 
 	public static void main(String[] args) {
 		System.out.println("Main Method Started!!");
@@ -19,7 +19,7 @@ public class TestComparableDemo3 {
 		
 		mobList.add(m1);
 		mobList.add(m2);
-		mobList.add(m3);
+		mobList.add(m3);  
 		mobList.add(m4);
 		
 		Comparator<Mobile> c = new Comparator<Mobile>() {
