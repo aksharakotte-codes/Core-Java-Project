@@ -20,7 +20,5 @@ public class TestMapDemo7 {
 		
 		System.out.println(m);
 		System.out.println("Main Method Ended!!");
-
 	}
-
 }
