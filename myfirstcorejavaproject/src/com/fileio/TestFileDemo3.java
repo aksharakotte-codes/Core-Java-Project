@@ -10,6 +10,9 @@ public class TestFileDemo3 {
 		
 		File f = new File("C:\\Users\\ruthw\\OneDrive\\Documents\\Batch 70\\test\\Akhi");
 		
+		File f1 = new File("Hello");
+		f1.createNewFile();
+		
 		System.out.println(f.isDirectory());//true
 		System.out.println(f.isFile());//false
 		
