@@ -3,6 +3,7 @@ package com.stringhandling;
 import java.util.Scanner;
 
 //Q) WAP to print String in Reverse Order ..? 5 ways
+//WAP to find the Given String is Palindrome or not..?
 //using charAt
 public class TestStrDemo7 {
 

@@ -7,6 +7,7 @@ public class TestStrDemo5 {
 		
 		Runtime rt = Runtime.getRuntime();
 		
+		@SuppressWarnings("unused")
 		int[] arr = new int[200000000];
 		
 		System.out.println("Initial Heap : " + rt.totalMemory() / (1024 * 1024) + "MB");
