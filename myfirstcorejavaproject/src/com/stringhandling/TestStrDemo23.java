@@ -26,12 +26,12 @@ public class TestStrDemo23 {
 		sb3.deleteCharAt(5);
 		System.out.println(sb3);// Java s  
 		
-		
 		StringBuffer sb4 = new StringBuffer();//16
 //		sb4.ensureCapacity(16);// 16
 //		sb4.ensureCapacity(17);// 34
 		sb4.ensureCapacity(100);// 100
 		System.out.println(sb4.capacity());//16 --> 34 --> 100
+		
 		System.out.println("Main Method Ended");
 	}
 }

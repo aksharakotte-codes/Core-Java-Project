@@ -8,7 +8,7 @@ public class TestFileDemo1 {
 	public static void main(String[] args) throws IOException {
 		System.out.println("Main Method Started");
 		
-		File f = new File("C:\\Users\\ruthw\\OneDrive\\Documents\\Batch 70\\test\\Akshara1.txt");
+		File f = new File("C:\\Users\\ruthw\\OneDrive\\Documents\\Batch 70\\test\\Akhi.txt");
 		
 //		Atomically creates a new, empty file named by this abstract pathname 
 //		if and only if a file with this name does not yet exist.
