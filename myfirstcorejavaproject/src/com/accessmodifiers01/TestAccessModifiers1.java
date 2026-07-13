@@ -72,8 +72,6 @@ public class TestAccessModifiers1 {
 		System.out.println(t1.name3);
 		t1.method3();
 		
-		
-		
 //		Accessing the protected data members outside of the packages not possible directly.
 //		System.out.println(t1.id4);
 //		System.out.println(t1.name4);
@@ -83,6 +81,7 @@ public class TestAccessModifiers1 {
 	
 	//A class inside the class is Inner class to work with Temporary requirements.
 	
+	@SuppressWarnings("unused")
 	private class TestIn1 {
 		
 	}
