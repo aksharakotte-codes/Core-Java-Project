@@ -3,7 +3,7 @@ package com.multithreading;
 //Which one is better either extends Thread or Implements Runnable ..?
 //implements Runnable is the best option 
 //if we use extends test below, 
-//run() method cannot override because we again use implements Runnable .
+//run() method cannot override because we again use implements Runnable 
 
 class Test {
 	//1000 methods
