@@ -29,7 +29,7 @@ class Customer extends Thread{
 		super();
 		this.bms = bms;
 		this.customerName = customerName;
-		this.tickets = tickets;
+		this.tickets = tickets; 
 	}
 	
 	@Override
