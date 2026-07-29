@@ -13,7 +13,7 @@ import java.util.function.Supplier;
 //Consumer<T>  --> void acccept(T)
 //Supplier --> T get()
 // --------------------------------------------
-//Bi-Predicate<T, T> --> boolean test(T t, T t)
+//Bi-Predicate<T, T> --> boolean test(T t, T t) 
 //Function<T, T, R> --> R apply(T t, T t)
 //Consumer<T, T>  --> void acccept(T t, T t)
 
